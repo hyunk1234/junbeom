@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@100..900&family=Satisfy&display=swap');
+
+body {
+  background-image: url(./competition_background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center;
+}
+
+html{
+  font-family: "Hahmlet", serif;
+}
+
+body h3 {
+  text-decoration:underline;
+}
+
+#subtitle {
+  text-align:right;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 8px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: auto;
+  border-bottom: 3px solid rgb(0,0,0);
+  background: rgb(250,250,250);
+}
+
+#navigation {
+  margin: 0px 170px;
+}
+
+.logo {
+  font-size: 32px;
+  color: rgb(150,150,255);
+  font-weight:70%;
+  text-decoration: none;
+}
+
+.navbar a {
+  position: relative;
+  font-size: 18px;
+  color: #000;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left:40px;
+}
+
+.navbar a::before{
+  content: '';
+  position:absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: rgb(0,0,0);
+}
+
+.navbar a:hover::before{
+  width:100%;
+}
+
+#gap {
+  height: 140px;
+}
+
+#download {
+  border: 2px solid rgb(0,0,0);
+  margin: 0px 20px;
+  width: 100px;
+  padding:4px;
+  text-align:center;
+  text-decoration:none;
+  color: #000;
+  background: #FFC400;
+  border-radius: 15px;
+}
+
+#download_section {
+  width: 500px;
+  height: 400px;
+  margin: 80px;
+  float:left;
+  text-align:left;
+}
+
+
+
+#icons {
+  display:inline-block;
+  max-width: 100%
+
+}
+
+#money {
+  margin: 20px 150px;
+  text-align: center;
+  width: 200px;
+  display:inline-block;
+}
+
+#money_icon {
+}
+
+#technology {
+  margin: 20px 150px;
+  width: 200px;
+  text-align: center;
+  display:inline-block;
+}
+
+#technology_icon {
+}
+
+#education {
+  margin: 20px 140px;
+  width: 200px;
+  text-align: center;
+  display:inline-block;
+}
+
+#education_icon {
+}
+
+body main {
+  background: rgb(255,255,255);
+  color: rgb(0, 0, 0);
+  margin: auto;
+  padding: 10px;
+  border: 2px solid rgb(100, 100, 100);
+  width: 900px;
+  height: 1000px;
+}
+
+#information {
+  width: 600px;
+}
+
+#team_introducing {
+  width: 150%;
+  height: 300px;
+}
+
+#application_introducing {
+  width: 150%;
+  height: 300px;
+}
+
+#application_picture {
+  width: 300px;
+  height: 250px;
+  float:left;
+}
+
+#team_logo {
+  width: 300px;
+  height: 250px;
+  float:right;
+  margin-right: auto;
+}
+
+#contact a {
+  text-decoration: none;
+  color: #00F;
+}
